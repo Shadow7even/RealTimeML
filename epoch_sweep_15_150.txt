@@ -1,0 +1,242 @@
+For 15 epochs the results were:
+
+Starting Training Loop for Problem 2 (Attention)...
+Epoch: 01 | Train Loss: 6.8283 | Val Loss: 6.1270 | Val Perplexity: 458.0429
+Epoch: 02 | Train Loss: 5.8220 | Val Loss: 5.8513 | Val Perplexity: 347.6935
+Epoch: 03 | Train Loss: 5.4335 | Val Loss: 5.8573 | Val Perplexity: 349.7825
+Epoch: 04 | Train Loss: 5.2404 | Val Loss: 5.7959 | Val Perplexity: 328.9594
+Epoch: 05 | Train Loss: 5.0415 | Val Loss: 5.7578 | Val Perplexity: 316.6565
+Epoch: 06 | Train Loss: 4.8698 | Val Loss: 5.6959 | Val Perplexity: 297.6576
+Epoch: 07 | Train Loss: 4.6678 | Val Loss: 5.6141 | Val Perplexity: 274.2788
+Epoch: 08 | Train Loss: 4.5268 | Val Loss: 5.5363 | Val Perplexity: 253.7496
+Epoch: 09 | Train Loss: 4.3334 | Val Loss: 5.4728 | Val Perplexity: 238.1269
+Epoch: 10 | Train Loss: 4.1536 | Val Loss: 5.4346 | Val Perplexity: 229.1938
+Epoch: 11 | Train Loss: 3.9541 | Val Loss: 5.3955 | Val Perplexity: 220.4016
+Epoch: 12 | Train Loss: 3.8193 | Val Loss: 5.3481 | Val Perplexity: 210.2108
+Epoch: 13 | Train Loss: 3.5970 | Val Loss: 5.3129 | Val Perplexity: 202.9355
+Epoch: 14 | Train Loss: 3.4153 | Val Loss: 5.3247 | Val Perplexity: 205.3500
+Epoch: 15 | Train Loss: 3.2852 | Val Loss: 5.2862 | Val Perplexity: 197.5846
+[*] Total Train Time (s): 3.18
+
+with:
+
+/================================================================================
+QUALITATIVE VALIDATION SAMPLES (PROBLEM 2 - ATTENTION)
+/================================================================================
+English (Source): The monkey climbs the banana tree
+Target (French):  Le simge grimpe sur le bananier
+Model Predicted:  vous plaît, la la la la
+Exact Match:      False | Sent. BLEU: 0.0000
+/--------------------------------------------------------------------------------
+English (Source): I received a funny postcard from my cousin
+Target (French):  J'ai reçu une carte postale amusante de mon cousin
+Model Predicted:  un un un roman de de de de de de
+Exact Match:      False | Sent. BLEU: 0.0211
+/--------------------------------------------------------------------------------
+English (Source): The local dentist advised me to brush twice daily
+Target (French):  Le dentiste local m'a conseillé de me brosser les dents deux fois par jour
+Model Predicted:  avez une une de de de de de de de de de de
+Exact Match:      False | Sent. BLEU: 0.0144
+/--------------------------------------------------------------------------------
+English (Source): They often debate about economics and resource distribution
+Target (French):  Ils débattent souvent d'économie et de distribution des ressources
+Model Predicted:  a une de de de de de
+Exact Match:      False | Sent. BLEU: 0.0248
+/--------------------------------------------------------------------------------
+English (Source): He teaches chemistry to university students
+Target (French):  Il enseigne la chimie aux étudiants universitaires
+...
+/========================================
+Traditional Sequence Accuracy : 0.00%
+Validation BLEU-4 Score       : 0.59
+/========================================
+
+
+
+Same learning rate but 150 epochs
+
+Starting Training Loop for Problem 2 (Attention)...
+Epoch: 01 | Train Loss: 3.2752 | Val Loss: 5.2855 | Val Perplexity: 197.4488
+Epoch: 02 | Train Loss: 2.9839 | Val Loss: 5.3705 | Val Perplexity: 214.9785
+Epoch: 03 | Train Loss: 2.8139 | Val Loss: 5.3949 | Val Perplexity: 220.2887
+Epoch: 04 | Train Loss: 2.6954 | Val Loss: 5.3948 | Val Perplexity: 220.2661
+Epoch: 05 | Train Loss: 2.4711 | Val Loss: 5.4209 | Val Perplexity: 226.0896
+Epoch: 06 | Train Loss: 2.2613 | Val Loss: 5.4923 | Val Perplexity: 242.8073
+Epoch: 07 | Train Loss: 2.1049 | Val Loss: 5.5169 | Val Perplexity: 248.8647
+Epoch: 08 | Train Loss: 2.0120 | Val Loss: 5.5663 | Val Perplexity: 261.4598
+Epoch: 09 | Train Loss: 1.7502 | Val Loss: 5.5723 | Val Perplexity: 263.0450
+Epoch: 10 | Train Loss: 1.6302 | Val Loss: 5.5574 | Val Perplexity: 259.1571
+Epoch: 11 | Train Loss: 1.4189 | Val Loss: 5.6017 | Val Perplexity: 270.8928
+Epoch: 12 | Train Loss: 1.3298 | Val Loss: 5.6970 | Val Perplexity: 297.9589
+Epoch: 13 | Train Loss: 1.1593 | Val Loss: 5.6723 | Val Perplexity: 290.7041
+Epoch: 14 | Train Loss: 1.0394 | Val Loss: 5.7849 | Val Perplexity: 325.3626
+Epoch: 15 | Train Loss: 0.8820 | Val Loss: 5.7840 | Val Perplexity: 325.0715
+Epoch: 16 | Train Loss: 0.7746 | Val Loss: 5.8113 | Val Perplexity: 334.0640
+Epoch: 17 | Train Loss: 0.7002 | Val Loss: 5.8919 | Val Perplexity: 362.1020
+Epoch: 18 | Train Loss: 0.5971 | Val Loss: 5.9685 | Val Perplexity: 390.9048
+Epoch: 19 | Train Loss: 0.5183 | Val Loss: 5.9492 | Val Perplexity: 383.4627
+Epoch: 20 | Train Loss: 0.4323 | Val Loss: 6.0163 | Val Perplexity: 410.0644
+Epoch: 21 | Train Loss: 0.3780 | Val Loss: 6.0805 | Val Perplexity: 437.2622
+Epoch: 22 | Train Loss: 0.3273 | Val Loss: 6.1254 | Val Perplexity: 457.3065
+Epoch: 23 | Train Loss: 0.2859 | Val Loss: 6.1294 | Val Perplexity: 459.1670
+Epoch: 24 | Train Loss: 0.2504 | Val Loss: 6.1910 | Val Perplexity: 488.3127
+Epoch: 25 | Train Loss: 0.2228 | Val Loss: 6.2370 | Val Perplexity: 511.3192
+Epoch: 26 | Train Loss: 0.1990 | Val Loss: 6.2739 | Val Perplexity: 530.5426
+Epoch: 27 | Train Loss: 0.1795 | Val Loss: 6.2594 | Val Perplexity: 522.8925
+Epoch: 28 | Train Loss: 0.1625 | Val Loss: 6.3184 | Val Perplexity: 554.6752
+Epoch: 29 | Train Loss: 0.1460 | Val Loss: 6.3512 | Val Perplexity: 573.1552
+Epoch: 30 | Train Loss: 0.1332 | Val Loss: 6.3976 | Val Perplexity: 600.4029
+Epoch: 31 | Train Loss: 0.1222 | Val Loss: 6.4210 | Val Perplexity: 614.6394
+Epoch: 32 | Train Loss: 0.1120 | Val Loss: 6.4845 | Val Perplexity: 654.9173
+Epoch: 33 | Train Loss: 0.1044 | Val Loss: 6.4855 | Val Perplexity: 655.5769
+Epoch: 34 | Train Loss: 0.0965 | Val Loss: 6.5091 | Val Perplexity: 671.2499
+Epoch: 35 | Train Loss: 0.0902 | Val Loss: 6.5244 | Val Perplexity: 681.5666
+Epoch: 36 | Train Loss: 0.0834 | Val Loss: 6.5701 | Val Perplexity: 713.4450
+Epoch: 37 | Train Loss: 0.0782 | Val Loss: 6.5928 | Val Perplexity: 729.8253
+Epoch: 38 | Train Loss: 0.0737 | Val Loss: 6.6030 | Val Perplexity: 737.2835
+Epoch: 39 | Train Loss: 0.0685 | Val Loss: 6.6687 | Val Perplexity: 787.3712
+Epoch: 40 | Train Loss: 0.0647 | Val Loss: 6.6773 | Val Perplexity: 794.1746
+Epoch: 41 | Train Loss: 0.0612 | Val Loss: 6.7333 | Val Perplexity: 839.9456
+Epoch: 42 | Train Loss: 0.0577 | Val Loss: 6.7460 | Val Perplexity: 850.6242
+Epoch: 43 | Train Loss: 0.0548 | Val Loss: 6.7624 | Val Perplexity: 864.7385
+Epoch: 44 | Train Loss: 0.0519 | Val Loss: 6.7758 | Val Perplexity: 876.3938
+Epoch: 45 | Train Loss: 0.0492 | Val Loss: 6.8035 | Val Perplexity: 900.9615
+Epoch: 46 | Train Loss: 0.0470 | Val Loss: 6.8251 | Val Perplexity: 920.6550
+Epoch: 47 | Train Loss: 0.0448 | Val Loss: 6.8892 | Val Perplexity: 981.5947
+Epoch: 48 | Train Loss: 0.0428 | Val Loss: 6.8715 | Val Perplexity: 964.3980
+Epoch: 49 | Train Loss: 0.0407 | Val Loss: 6.9145 | Val Perplexity: 1006.7889
+Epoch: 50 | Train Loss: 0.0390 | Val Loss: 6.9472 | Val Perplexity: 1040.2373
+Epoch: 51 | Train Loss: 0.0373 | Val Loss: 6.9300 | Val Perplexity: 1022.5421
+Epoch: 52 | Train Loss: 0.0360 | Val Loss: 6.9751 | Val Perplexity: 1069.6619
+Epoch: 53 | Train Loss: 0.0346 | Val Loss: 6.9520 | Val Perplexity: 1045.2004
+Epoch: 54 | Train Loss: 0.0332 | Val Loss: 6.9739 | Val Perplexity: 1068.3432
+Epoch: 55 | Train Loss: 0.0319 | Val Loss: 6.9952 | Val Perplexity: 1091.3865
+Epoch: 56 | Train Loss: 0.0308 | Val Loss: 7.0032 | Val Perplexity: 1100.1108
+Epoch: 57 | Train Loss: 0.0297 | Val Loss: 7.0068 | Val Perplexity: 1104.1448
+Epoch: 58 | Train Loss: 0.0286 | Val Loss: 7.0275 | Val Perplexity: 1127.2208
+Epoch: 59 | Train Loss: 0.0277 | Val Loss: 7.0649 | Val Perplexity: 1170.2098
+Epoch: 60 | Train Loss: 0.0267 | Val Loss: 7.0218 | Val Perplexity: 1120.8052
+Epoch: 61 | Train Loss: 0.0259 | Val Loss: 7.0954 | Val Perplexity: 1206.4639
+Epoch: 62 | Train Loss: 0.0249 | Val Loss: 7.0770 | Val Perplexity: 1184.4621
+Epoch: 63 | Train Loss: 0.0242 | Val Loss: 7.0916 | Val Perplexity: 1201.7804
+Epoch: 64 | Train Loss: 0.0234 | Val Loss: 7.1416 | Val Perplexity: 1263.3885
+Epoch: 65 | Train Loss: 0.0227 | Val Loss: 7.0777 | Val Perplexity: 1185.2833
+Epoch: 66 | Train Loss: 0.0220 | Val Loss: 7.1681 | Val Perplexity: 1297.4167
+Epoch: 67 | Train Loss: 0.0213 | Val Loss: 7.1242 | Val Perplexity: 1241.6717
+Epoch: 68 | Train Loss: 0.0207 | Val Loss: 7.1088 | Val Perplexity: 1222.7304
+Epoch: 69 | Train Loss: 0.0201 | Val Loss: 7.1950 | Val Perplexity: 1332.7741
+Epoch: 70 | Train Loss: 0.0196 | Val Loss: 7.1747 | Val Perplexity: 1305.9957
+Epoch: 71 | Train Loss: 0.0190 | Val Loss: 7.1550 | Val Perplexity: 1280.5071
+Epoch: 72 | Train Loss: 0.0185 | Val Loss: 7.1777 | Val Perplexity: 1309.9255
+Epoch: 73 | Train Loss: 0.0179 | Val Loss: 7.2592 | Val Perplexity: 1421.0668
+Epoch: 74 | Train Loss: 0.0176 | Val Loss: 7.1951 | Val Perplexity: 1332.8719
+Epoch: 75 | Train Loss: 0.0172 | Val Loss: 7.1852 | Val Perplexity: 1319.7827
+Epoch: 76 | Train Loss: 0.0167 | Val Loss: 7.2199 | Val Perplexity: 1366.4086
+Epoch: 77 | Train Loss: 0.0162 | Val Loss: 7.2897 | Val Perplexity: 1465.0602
+Epoch: 78 | Train Loss: 0.0158 | Val Loss: 7.2204 | Val Perplexity: 1367.0209
+Epoch: 79 | Train Loss: 0.0154 | Val Loss: 7.2228 | Val Perplexity: 1370.3098
+Epoch: 80 | Train Loss: 0.0151 | Val Loss: 7.2863 | Val Perplexity: 1460.1988
+Epoch: 81 | Train Loss: 0.0148 | Val Loss: 7.2505 | Val Perplexity: 1408.8393
+Epoch: 82 | Train Loss: 0.0144 | Val Loss: 7.2509 | Val Perplexity: 1409.3533
+Epoch: 83 | Train Loss: 0.0140 | Val Loss: 7.2805 | Val Perplexity: 1451.7278
+Epoch: 84 | Train Loss: 0.0137 | Val Loss: 7.3132 | Val Perplexity: 1500.0384
+Epoch: 85 | Train Loss: 0.0134 | Val Loss: 7.3004 | Val Perplexity: 1480.9123
+Epoch: 86 | Train Loss: 0.0131 | Val Loss: 7.2887 | Val Perplexity: 1463.7080
+Epoch: 87 | Train Loss: 0.0128 | Val Loss: 7.3432 | Val Perplexity: 1545.6123
+Epoch: 88 | Train Loss: 0.0125 | Val Loss: 7.3162 | Val Perplexity: 1504.4747
+Epoch: 89 | Train Loss: 0.0123 | Val Loss: 7.3246 | Val Perplexity: 1517.1922
+Epoch: 90 | Train Loss: 0.0120 | Val Loss: 7.3391 | Val Perplexity: 1539.3718
+Epoch: 91 | Train Loss: 0.0118 | Val Loss: 7.3462 | Val Perplexity: 1550.2617
+Epoch: 92 | Train Loss: 0.0115 | Val Loss: 7.3355 | Val Perplexity: 1533.7773
+Epoch: 93 | Train Loss: 0.0113 | Val Loss: 7.3859 | Val Perplexity: 1613.1132
+Epoch: 94 | Train Loss: 0.0110 | Val Loss: 7.4181 | Val Perplexity: 1665.8175
+Epoch: 95 | Train Loss: 0.0109 | Val Loss: 7.3949 | Val Perplexity: 1627.7415
+Epoch: 96 | Train Loss: 0.0106 | Val Loss: 7.4218 | Val Perplexity: 1671.9721
+Epoch: 97 | Train Loss: 0.0104 | Val Loss: 7.4293 | Val Perplexity: 1684.5835
+Epoch: 98 | Train Loss: 0.0102 | Val Loss: 7.4337 | Val Perplexity: 1692.0176
+Epoch: 99 | Train Loss: 0.0100 | Val Loss: 7.4459 | Val Perplexity: 1712.8596
+Epoch: 100 | Train Loss: 0.0098 | Val Loss: 7.4531 | Val Perplexity: 1725.2576
+Epoch: 101 | Train Loss: 0.0097 | Val Loss: 7.4499 | Val Perplexity: 1719.7591
+Epoch: 102 | Train Loss: 0.0095 | Val Loss: 7.4559 | Val Perplexity: 1729.9974
+Epoch: 103 | Train Loss: 0.0093 | Val Loss: 7.4752 | Val Perplexity: 1763.8203
+Epoch: 104 | Train Loss: 0.0092 | Val Loss: 7.4619 | Val Perplexity: 1740.3808
+Epoch: 105 | Train Loss: 0.0090 | Val Loss: 7.4814 | Val Perplexity: 1774.7008
+Epoch: 106 | Train Loss: 0.0088 | Val Loss: 7.4902 | Val Perplexity: 1790.3385
+Epoch: 107 | Train Loss: 0.0087 | Val Loss: 7.4964 | Val Perplexity: 1801.6266
+Epoch: 108 | Train Loss: 0.0085 | Val Loss: 7.5077 | Val Perplexity: 1822.0054
+Epoch: 109 | Train Loss: 0.0084 | Val Loss: 7.5271 | Val Perplexity: 1857.6516
+Epoch: 110 | Train Loss: 0.0082 | Val Loss: 7.5246 | Val Perplexity: 1853.0891
+Epoch: 111 | Train Loss: 0.0081 | Val Loss: 7.5209 | Val Perplexity: 1846.2335
+Epoch: 112 | Train Loss: 0.0079 | Val Loss: 7.5378 | Val Perplexity: 1877.6642
+Epoch: 113 | Train Loss: 0.0078 | Val Loss: 7.5498 | Val Perplexity: 1900.4114
+Epoch: 114 | Train Loss: 0.0079 | Val Loss: 7.5651 | Val Perplexity: 1929.6276
+Epoch: 115 | Train Loss: 0.0076 | Val Loss: 7.5670 | Val Perplexity: 1933.3291
+Epoch: 116 | Train Loss: 0.0076 | Val Loss: 7.5821 | Val Perplexity: 1962.7294
+Epoch: 117 | Train Loss: 0.0073 | Val Loss: 7.5855 | Val Perplexity: 1969.5231
+Epoch: 118 | Train Loss: 0.0072 | Val Loss: 7.5959 | Val Perplexity: 1990.0904
+Epoch: 119 | Train Loss: 0.0071 | Val Loss: 7.5870 | Val Perplexity: 1972.3623
+Epoch: 120 | Train Loss: 0.0070 | Val Loss: 7.5911 | Val Perplexity: 1980.4247
+Epoch: 121 | Train Loss: 0.0069 | Val Loss: 7.6051 | Val Perplexity: 2008.4202
+Epoch: 122 | Train Loss: 0.0068 | Val Loss: 7.6036 | Val Perplexity: 2005.3689
+Epoch: 123 | Train Loss: 0.0067 | Val Loss: 7.6113 | Val Perplexity: 2020.8216
+Epoch: 124 | Train Loss: 0.0066 | Val Loss: 7.6175 | Val Perplexity: 2033.4882
+Epoch: 125 | Train Loss: 0.0065 | Val Loss: 7.6207 | Val Perplexity: 2040.0419
+Epoch: 126 | Train Loss: 0.0064 | Val Loss: 7.6294 | Val Perplexity: 2057.7414
+Epoch: 127 | Train Loss: 0.0063 | Val Loss: 7.6361 | Val Perplexity: 2071.5707
+Epoch: 128 | Train Loss: 0.0062 | Val Loss: 7.6424 | Val Perplexity: 2084.6925
+Epoch: 129 | Train Loss: 0.0061 | Val Loss: 7.6466 | Val Perplexity: 2093.4347
+Epoch: 130 | Train Loss: 0.0060 | Val Loss: 7.6518 | Val Perplexity: 2104.3392
+Epoch: 131 | Train Loss: 0.0059 | Val Loss: 7.6619 | Val Perplexity: 2125.8454
+Epoch: 132 | Train Loss: 0.0058 | Val Loss: 7.6712 | Val Perplexity: 2145.7320
+Epoch: 133 | Train Loss: 0.0058 | Val Loss: 7.6733 | Val Perplexity: 2150.2433
+Epoch: 134 | Train Loss: 0.0057 | Val Loss: 7.6711 | Val Perplexity: 2145.5473
+Epoch: 135 | Train Loss: 0.0056 | Val Loss: 7.6757 | Val Perplexity: 2155.2588
+Epoch: 136 | Train Loss: 0.0055 | Val Loss: 7.6926 | Val Perplexity: 2192.1669
+Epoch: 137 | Train Loss: 0.0055 | Val Loss: 7.6984 | Val Perplexity: 2204.7208
+Epoch: 138 | Train Loss: 0.0054 | Val Loss: 7.6974 | Val Perplexity: 2202.5662
+Epoch: 139 | Train Loss: 0.0053 | Val Loss: 7.7032 | Val Perplexity: 2215.3771
+Epoch: 140 | Train Loss: 0.0052 | Val Loss: 7.7112 | Val Perplexity: 2233.3062
+Epoch: 141 | Train Loss: 0.0052 | Val Loss: 7.7141 | Val Perplexity: 2239.6408
+Epoch: 142 | Train Loss: 0.0051 | Val Loss: 7.7231 | Val Perplexity: 2259.8473
+Epoch: 143 | Train Loss: 0.0050 | Val Loss: 7.7313 | Val Perplexity: 2278.4904
+Epoch: 144 | Train Loss: 0.0050 | Val Loss: 7.7354 | Val Perplexity: 2287.9552
+Epoch: 145 | Train Loss: 0.0049 | Val Loss: 7.7424 | Val Perplexity: 2304.0512
+Epoch: 146 | Train Loss: 0.0048 | Val Loss: 7.7490 | Val Perplexity: 2319.3041
+Epoch: 147 | Train Loss: 0.0048 | Val Loss: 7.7529 | Val Perplexity: 2328.2279
+Epoch: 148 | Train Loss: 0.0047 | Val Loss: 7.7510 | Val Perplexity: 2323.8889
+Epoch: 149 | Train Loss: 0.0047 | Val Loss: 7.7561 | Val Perplexity: 2335.7393
+Epoch: 150 | Train Loss: 0.0046 | Val Loss: 7.7680 | Val Perplexity: 2363.7800
+[*] Total Train Time (s): 27.12
+
+and then the result:
+
+/================================================================================
+QUALITATIVE VALIDATION SAMPLES (PROBLEM 2 - ATTENTION)
+/================================================================================
+English (Source): The ocean reflects the blue sky
+Target (French):  L'océan reflète le ciel bleu
+Model Predicted:  marcher dans la rivière froide
+Exact Match:      False | Sent. BLEU: 0.0000
+/--------------------------------------------------------------------------------
+English (Source): She works part-time at the library
+Target (French):  Elle travaille à temps partiel à la bibliothèque
+Model Predicted:  travaille à la rivière à la rivière
+Exact Match:      False | Sent. BLEU: 0.0856
+/--------------------------------------------------------------------------------
+English (Source): We need a bigger table
+Target (French):  Nous avons besoin d'une plus grande table
+Model Predicted:  lis actuellement une biographie en bois
+Exact Match:      False | Sent. BLEU: 0.0000
+/--------------------------------------------------------------------------------
+English (Source): He likes to watch historical documentaries on television
+Target (French):  Il aime regarder des documentaires historiques à la télévision
+Model Predicted:  des deux à des enfants
+Exact Match:      False | Sent. BLEU: 0.0287
+/--------------------------------------------------------------------------------
+English (Source): She dances at the party
+Target (French):  Elle danse à la fête
+...
+/========================================
+Traditional Sequence Accuracy : 0.00%
+Validation BLEU-4 Score       : 7.55
+/========================================
